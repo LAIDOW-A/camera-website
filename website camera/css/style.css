@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5; /* Light Gray */
+    color: #2c3e50; /* Dark Gray Text */
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #8e44ad; /* Purple */
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #e74c3c; /* Red */
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #8e44ad; /* Purple */
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #34495e; /* Dark Gray */
+    padding: 1.5rem;
+}
+
+.navbar .nav-link {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+.navbar .nav-link:hover {
+    color: #1abc9c; /* Turquoise */
+}
+
+.navbar .logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1abc9c; /* Turquoise */
+}
+
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #7f8c8d; /* Light Gray */
+    margin-bottom: 4rem;
+}
+
+.product-card,
+.blog-card,
+.pricing-card {
+    background-color: #ffffff; /* White */
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+.product-card:hover,
+.blog-card:hover,
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card img,
+.blog-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-info,
+.blog-info {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.product-title,
+.blog-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.product-description,
+.blog-description {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 1rem;
+}
+
+.product-price,
+.pricing-card p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #e74c3c; /* Red */
+    margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+    background-color: #1abc9c; /* Turquoise */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #16a085; /* Dark Turquoise */
+}
+
+#testimonial {
+    background-color: #34495e; /* Dark Gray */
+    padding: 4rem 2rem;
+    color: white;
+}
+
+#testimonial h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.testimonial-card {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(52, 152, 219, 0.4)); /* Gradient Background */
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    border: 5px solid #8e44ad; /* Purple Border */
+}
+
+.testimonial-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.testimonial-card p {
+    font-size: 1.1rem;
+    color: #ecf0f1; /* Light Gray */
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #34495e; /* Dark Gray */
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 1.8rem;
+    color: #8e44ad; /* Purple */
+    margin-bottom: 1.5rem;
+}
+
+footer p {
+    color: #ecf0f1; /* Light Gray */
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+footer a:hover {
+    color: #e74c3c; /* Red */
+}
+
+footer .social-icons {
+    margin-top: 2rem;
+}
+
+footer .social-icons a {
+    margin: 0 15px;
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #8e44ad; /* Purple */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .product-card,
+    .blog-card,
+    .pricing-card {
+        margin-bottom: 1.5rem;
+    }
+
+    .testimonial-card {
+        margin-bottom: 1.5rem;
+    }
+
+    footer .social-icons a {
+        margin: 0 10px;
+    }
+}

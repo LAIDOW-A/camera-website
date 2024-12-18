@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid bg-dark">
+          <a class="navbar-brand" href="#"><img class="logo" width="80px" src="image/logo.jpg" alt="Logo" /></a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonial</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExample" class="carousel ss slide w-100" style="height: 700px;">
+        <div class="carousel-inner">
+          <div class="carousel-item active"><img src="image/product1.jpg" class="d-block w-100" alt="Product 1" style="height: 700px; object-fit: cover;" /></div>
+          <div class="carousel-item"><img src="image/product2.jpg" class="d-block w-100" alt="Product 2" style="height: 700px; object-fit: cover;" /></div>
+          <div class="carousel-item"><img src="image/product3.jpg" class="d-block w-100" alt="Product 3" style="height: 700px; object-fit: cover;" /></div>
+          <div class="carousel-item"><img src="image/product4.jpg" class="d-block w-100" alt="Product 4" style="height: 700px; object-fit: cover;" /></div>
+          <div class="carousel-item"><img src="image/product5.jpg" class="d-block w-100" alt="Product 5" style="height: 700px; object-fit: cover;" /></div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <section id="products" class="products-section" style="padding: 60px 0;">
+      <div class="container">
+          <h2 class="text-center">Our Products</h2>
+          <p class="text-center" style="color: #555;">Browse through our latest camera products and accessories</p>
+  
+          <div class="row">
+              <!-- Product 1 -->
+              <div class="col-md-4 col-sm-6">
+                  <div class="product-card">
+                      <img src="image/product1.jpg" class="product-img" alt="Product 1">
+                      <div class="product-info">
+                          <h3 class="product-title">Camera Model 1</h3>
+                          <p class="product-description">High-quality DSLR with 20MP resolution and 4K video recording.</p>
+                          <a href="#" class="btn btn-primary">Learn More</a>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- Product 2 -->
+              <div class="col-md-4 col-sm-6">
+                  <div class="product-card">
+                      <img src="image/product2.jpg" class="product-img" alt="Product 2">
+                      <div class="product-info">
+                          <h3 class="product-title">Camera Model 2</h3>
+                          <p class="product-description">Mirrorless camera with excellent autofocus and portability.</p>
+                          <a href="#" class="btn btn-primary">Learn More</a>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- Product 3 -->
+              <div class="col-md-4 col-sm-6">
+                  <div class="product-card">
+                      <img src="image/product3.jpg" class="product-img" alt="Product 3">
+                      <div class="product-info">
+                          <h3 class="product-title">Camera Model 3</h3>
+                          <p class="product-description">Compact camera with a 30x optical zoom and image stabilization.</p>
+                          <a href="#" class="btn btn-primary">Learn More</a>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- Product 4 -->
+              <div class="col-md-4 col-sm-6">
+                  <div class="product-card">
+                      <img src="image/product4.jpg" class="product-img" alt="Product 4">
+                      <div class="product-info">
+                          <h3 class="product-title">Camera Model 4</h3>
+                          <p class="product-description">A professional DSLR for high-end photography with advanced features.</p>
+                          <a href="#" class="btn btn-primary">Learn More</a>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- Product 5 -->
+              <div class="col-md-4 col-sm-6">
+                  <div class="product-card">
+                      <img src="image/product5.jpg" class="product-img" alt="Product 5">
+                      <div class="product-info">
+                          <h3 class="product-title">Camera Model 5</h3>
+                          <p class="product-description">Action camera with waterproof features and ultra-wide lens.</p>
+                          <a href="#" class="btn btn-primary">Learn More</a>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- Product 6 -->
+              <div class="col-md-4 col-sm-6">
+                  <div class="product-card">
+                      <img src="image/product6.jpg" class="product-img" alt="Product 6">
+                      <div class="product-info">
+                          <h3 class="product-title">Camera Model 6</h3>
+                          <p class="product-description">Smart camera with built-in WiFi and Bluetooth connectivity.</p>
+                          <a href="#" class="btn btn-primary">Learn More</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section id="pricing">
+    <h2>Our Pricing Plans</h2>
+    <div class="pricing-card">
+      <h3>Basic Plan</h3>
+      <p>$19/month</p>
+      <a href="#contact" class="btn">Sign Up</a>
+    </div>
+    <div class="pricing-card">
+      <h3>Premium Plan</h3>
+      <p>$49/month</p>
+      <a href="#contact" class="btn">Sign Up</a>
+    </div>
+  </section>
+  
+  
+  
+  
+
+    <section id="testimonial">
+      <h2>TESTIMONIAL</h2>
+      <div class="boarder">
+      <div class="row">
+        <div class="testimonial-card col-md-4 ps-5">
+          <img src="image/testimonials-1.jpg" alt="Customer 1">
+          <h3>Customer One</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nemo tempora magni suscipit quibusdam doloremque.</p>
+        </div>
+        <div class="testimonial-card col-md-4 ps-5">
+          <img src="image/testimonials-4.jpg" alt="Customer 2">
+          <h3>Customer Two</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nemo tempora magni suscipit quibusdam doloremque.</p>
+        </div>
+        <div class="testimonial-card col-md-4 ps-5">
+          <img src="image/testimonials-3.jpg" alt="Customer 3">
+          <h3>Customer Three</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nemo tempora magni suscipit quibusdam doloremque.</p>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section id="blog" class="blog-section">
+      <div class="container">
+        <h2>Our Latest Blog Posts</h2>
+        <div class="row">
+          <!-- Blog Post 1 -->
+          <div class="col-md-4 blog-card">
+            <div class="card w-100">
+              <img src="image/blog1.jpg" class="card-img-top " alt="Blog Post 1">
+              <div class="card-body">
+                <h5 class="card-title">Blog Post Title 1</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt urna eu metus volutpat, ac vestibulum eros facilisis.</p>
+                <a href="blog-post1.html" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Blog Post 2 -->
+          <div class="col-md-4 blog-card">
+            <div class="card w-100">
+              <img src="image/blog2.jpg" class="card-img-top " alt="Blog Post 2">
+              <div class="card-body">
+                <h5 class="card-title">Blog Post Title 2</h5>
+                <p class="card-text">Vivamus sit amet eros velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <a href="blog-post2.html" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Blog Post 3 -->
+          <div class="col-md-4 blog-card">
+            <div class="card w-100">
+              <img src="image/blog3.jpg" class="card-img-top " alt="Blog Post 3">
+              <div class="card-body">
+                <h5 class="card-title">Blog Post Title 3</h5>
+                <p class="card-text">Sed consequat risus et sapien iaculis, sit amet volutpat erat feugiat. In ullamcorper eu risus ac venenatis.</p>
+                <a href="blog-post3.html" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team">
+      <h2>Meet Our Team</h2>
+      <div class="team-container">
+        <div class="team-member">
+          <img src="image/team-1.jpg" alt="Team Member 1">
+          <h3>John Doe</h3>
+          <p>CEO & Founder</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+        </div>
+        <div class="team-member">
+          <img src="image/team-2.jpg" alt="Team Member 2">
+          <h3>Jane Smith</h3>
+          <p>Lead Developer</p>
+          <p>Nulla venenatis enim sit amet urna feugiat, sit amet tincidunt felis convallis.</p>
+        </div>
+        <div class="team-member">
+          <img src="image/team-3.jpg" alt="Team Member 3">
+          <h3>Mike Johnson</h3>
+          <p>Marketing Manager</p>
+          <p>Donec ac neque ac risus commodo auctor vel at ligula. Cras auctor risus orci.</p>
+        </div>
+        <div class="team-member">
+          <img src="image/team-4.jpg" alt="Team Member 4">
+          <h3>Alice Williams</h3>
+          <p>Product Designer</p>
+          <p>Phasellus viverra tortor ac felis tincidunt, in ullamcorper elit interdum.</p>
+        </div>
+      </div>
+    </section>
+    
+    <style>
+      #team {
+        background-color: #f4f4f4;
+        padding: 60px 20px;
+        text-align: center;
+      }
+    
+      #team h2 {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 40px;
+      }
+    
+      .team-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+    
+      .team-member {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        width: 200px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+    
+      .team-member:hover {
+        transform: scale(1.05);
+      }
+    
+      .team-member img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+    
+      .team-member h3 {
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 10px;
+      }
+    
+      .team-member p {
+        font-size: 1rem;
+        color: #666;
+      }
+    </style>
+    
+    
+    
+
+    <section id="contact-form" style="background-color: #f4f4f4; padding: 50px 0;">
+      <div class="container">
+          <h2 class="text-center">Contact Us</h2>
+          <p class="text-center" style="color: #555;">Have any questions or feedback? Fill out the form below and we'll get back to you as soon as possible!</p>
+  
+          <div class="row">
+              <div class="col-md-8 offset-md-2">
+                  <form action="#" method="POST" class="contact-form">
+                      <div class="mb-3">
+                          <label for="name" class="form-label">Your Name</label>
+                          <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                      </div>
+  
+                      <div class="mb-3">
+                          <label for="email" class="form-label">Email Address</label>
+                          <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                      </div>
+  
+                      <div class="mb-3">
+                          <label for="message" class="form-label">Message</label>
+                          <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+                      </div>
+  
+                      <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="agree" name="agree" required>
+                          <label class="form-check-label" for="agree">I agree to the terms and conditions</label>
+                      </div>
+  
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+    <footer style="background-color: #333333; color: white; padding: 40px 0;">
+      <div class="container">
+          <div class="row">
+              <!-- About Section -->
+              <div class="col-md-4">
+                  <h4>About Us</h4>
+                  <p>We offer the best selection of cameras, photography equipment, and accessories. Our goal is to provide photographers of all levels with high-quality products and services.</p>
+              </div>
+  
+              <!-- Quick Links Section -->
+              <div class="col-md-4">
+                  <h4>Quick Links</h4>
+                  <ul>
+                      <li><a href="#" style="color: white; text-decoration: none;">Home</a></li>
+                      <li><a href="#" style="color: white; text-decoration: none;">Products</a></li>
+                      <li><a href="#" style="color: white; text-decoration: none;">Blog</a></li>
+                      <li><a href="#" style="color: white; text-decoration: none;">Testimonials</a></li>
+                      <li><a href="#" style="color: white; text-decoration: none;">Contact Us</a></li>
+                  </ul>
+              </div>
+  
+              <!-- Contact Info Section -->
+              <div class="col-md-4">
+                  <h4>Contact Us</h4>
+                  <p><i class="fas fa-phone-alt"></i> +1 234 567 890</p>
+                  <p><i class="fas fa-envelope"></i> support@camerawebsite.com</p>
+                  <p><i class="fas fa-map-marker-alt"></i> 123 Camera Street, New York, NY</p>
+              </div>
+          </div>
+  
+          <div class="row">
+              <div class="col-12 text-center mt-4">
+                  <div>
+                      <a href="#" class="social-icon" style="margin: 0 10px; color: white; font-size: 24px;">
+                          <i class="fab fa-facebook"></i>
+                      </a>
+                      <a href="#" class="social-icon" style="margin: 0 10px; color: white; font-size: 24px;">
+                          <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="#" class="social-icon" style="margin: 0 10px; color: white; font-size: 24px;">
+                          <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="#" class="social-icon" style="margin: 0 10px; color: white; font-size: 24px;">
+                          <i class="fab fa-youtube"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Copyright Section -->
+          <div class="row">
+              <div class="col-12 text-center mt-4">
+                  <p>&copy; 2024 Camera Website. All rights reserved.</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+  
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
